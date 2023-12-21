@@ -1,0 +1,32 @@
+@import "../../../assets/styles/light-theme";
+
+.skill-card {
+  position: relative;
+  overflow: hidden;
+
+  .title {
+    color: $tertiary-text;
+    cursor: pointer;
+  }
+
+  .image-wrap {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 72px;
+    width: 30%;
+    background: linear-gradient(90deg,$--light-0 0%,$--light-0 30%,$--light-0-60 100%)no-repeat;
+    //right 100%/100% ;
+
+    .image{
+      display: block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      background: linear-gradient(90deg,$--light-0 0%,$--light-0 30%,$--light-0-60 100%)center center/contain no-repeat;
+      opacity: 0.5;
+    }
+  }
+}
+

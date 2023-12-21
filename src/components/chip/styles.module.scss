@@ -1,0 +1,21 @@
+@import '../../assets/styles/colors';
+@import '../../assets/styles/light-theme';
+
+
+.chip-wrap {
+  display: inline-block;
+  border: 1px solid $light-1;
+  color: $tertiary-text;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition-duration: 0.15s;
+  &.active {
+    background-color: $accent;
+  }
+
+  &:hover {
+    background-color: $main-hover;
+  }
+}

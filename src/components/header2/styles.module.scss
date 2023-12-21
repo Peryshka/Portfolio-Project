@@ -1,0 +1,170 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+
+  .container {
+    margin: 0 auto;
+    width: 1100px;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.mainWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0.5rem;
+
+    .logoLink {
+      display: flex;
+      text-decoration: none;
+
+      .title {
+        color: #000;
+        font-weight: 700;
+      }
+
+    }
+
+    &:hover {
+      background-color: #e1e1e1;
+    }
+  }
+
+ .listWrap {
+   display: flex;
+
+    .mainList {
+      display: flex;
+      list-style-type: none;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .list {
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+        padding: 10px 20px;
+
+        .wrap {
+          display: flex;
+          flex-direction: row;
+          text-decoration: none;
+
+          .menu {
+            color: #1e1e1e;
+          }
+        }
+
+        &:hover {
+          background-color: #e1e1e1;
+        }
+      }
+    }
+ }
+
+  .search {
+    display: flex;
+
+    //img {
+    //  margin-right: 10px;
+    //}
+
+    .searchIcon {
+      padding: 10px 0.5rem;
+
+      &:hover {
+        background-color: #e1e1e1;
+        padding: 10px 0.5rem;
+      }
+    }
+
+    .themeIcon {
+      padding: 10px 0.5rem;
+
+      &:hover {
+        background-color: #e1e1e1;
+        padding: 10px 0.5rem;
+      }
+    }
+  }
+}
+
+.name {
+  display: flex;
+  width: 1em;
+  height: 1em;
+  font-size: 1.3em;
+  margin-right: 10px;
+  background: url('../../assets/icons/name.svg')center center/contain no-repeat;
+}
+
+.skills {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 1.3em;
+  margin-right: 10px;
+  background: url('../../assets/icons/projects.svg')center center/contain no-repeat;
+}
+
+.projects  {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 1.3em;
+  margin-right: 10px;
+  background: url('../../assets/icons/skills.svg')center center/contain no-repeat;
+}
+
+.experiences {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 1.3em;
+  margin-right: 10px;
+  background: url('../../assets/icons/experience.svg')center center/contain no-repeat;
+}
+
+.education {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 1.3em;
+  margin-right: 10px;
+  background: url('../../assets/icons/education.svg')center center/contain no-repeat;
+}
+
+
+.resume {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 1.3em;
+  margin-right: 10px;
+  background: url('../../assets/icons/resume.svg')center center/contain no-repeat;
+}
+
+.searchIcon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 1.3em;
+  margin-right: 10px;
+  padding: 10px 0.5rem;
+  background: url('../../assets/icons/search.svg')center center/contain no-repeat;
+}
+
+.themeIcon {
+  display: block;
+  width: 1em;
+  height: 1em;
+  font-size: 1.3em;
+  margin-right: 10px;
+  padding: 10px 0.5rem;
+  background: url('../../assets/icons/day.svg')center center/contain no-repeat;
+}

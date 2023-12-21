@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+}
+
+.outerWrap {
+  padding-left: 60px;
+
+}
+
+.main-layout {
+  .header {
+    border-bottom: 1px solid black;
+  }
+
+  .page-indent {
+    padding: 48px 24px ;
+  }
+}

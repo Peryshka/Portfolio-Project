@@ -1,0 +1,15 @@
+@import '../../../assets/styles/light-theme';
+
+.detail-page-wrap {
+ .title {
+   font-size: 64px;
+   font-weight: 900;
+   text-align: center;
+   padding: 127px 0;
+   border-bottom: 1px solid $border;
+ }
+  .description {
+     padding: 25px 0;
+    border-bottom: 1px solid $border;
+  }
+}

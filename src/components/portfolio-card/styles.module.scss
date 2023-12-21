@@ -1,0 +1,71 @@
+@import '../../assets/styles/light-theme';
+@import '../../assets/styles/colors';
+
+.project-card {
+  display: flex;
+  padding: 25px;
+  width: 35%;
+
+  .portfolio-img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .title-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $light-1;
+
+    .title {
+      font-size: 1.25em;
+      margin: 5px 0;
+    }
+
+    .icon {
+      display: block;
+      background: url('../../assets/icons/infinity-icon.svg') center center/contain no-repeat;
+      width: 1em;
+      height: 1em;
+    }
+  }
+
+  .website-template {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+
+    .text {
+      color: $secondary-text;
+      font-size: -9em;
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
+
+  .description {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: $secondary-text;
+    font-weight: 300;
+    font-size: .95em;
+    height: 30%;
+  }
+
+  .chip-wrap {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $light-1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .img {
+   height: 15px;
+    width: 15px;
+  }
+
+}
+
+
+

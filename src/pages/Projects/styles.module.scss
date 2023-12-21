@@ -1,0 +1,23 @@
+.project-wrap {
+  display: flex;
+  flex-direction: column;
+
+  .wrap {
+    display: flex;
+  }
+
+  .chip-wrap {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+
+
+    .chip {
+      margin: 2.5px;
+    }
+  }
+
+  .portfolio-wrap {
+    display: flex;
+  }
+}

@@ -1,0 +1,13 @@
+@import '../../assets/styles/light-theme';
+
+.search-bar {
+  .title {
+    //font-size: 3.5em;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0.67em 0;
+    letter-spacing: 4px;
+    color: $main-text;
+    text-align: center;
+  }
+}

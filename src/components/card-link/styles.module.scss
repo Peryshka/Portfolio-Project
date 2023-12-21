@@ -1,0 +1,28 @@
+@import '../../assets/styles/light-theme';
+
+.card-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid $border;
+  &:hover {
+    border: 1px solid $border-hover;
+    &::before {
+      content: attr(data-label);
+      position: absolute;
+      top: calc(100% + 5px);
+      right: 70%;
+      padding: 5px 10px;
+      width: max-content;
+      background-color: $secondary;
+      border-radius: 15px;
+      z-index: 10;
+    }
+  }
+}
